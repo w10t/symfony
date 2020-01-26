@@ -55,7 +55,7 @@ final class FormEvents
     /**
      * The FormEvents::POST_SUBMIT event is dispatched at the very end of the Form::submit().
      *
-     * It this stage the model and view data may have been denormalized. Otherwise the form
+     * At this stage the model and view data may have been denormalized. Otherwise the form
      * is desynchronized because transformation failed during submission.
      *
      * It can be used to fetch data after denormalization.
